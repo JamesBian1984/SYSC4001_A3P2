@@ -1,5 +1,3 @@
-// p2b.c - SYSC4001 A3 Part 2(b): TA marking with shared memory + semaphores
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
