@@ -32,7 +32,7 @@ void random_sleep(int min_ms, int max_ms) {
     int delta = max_ms - min_ms;
     int r = rand() % (delta + 1);
     int ms = min_ms + r;
-    nanosleep(ms * 1000);
+    sleep(ms * 1000);
 }
 
 // Load rubric.txt: 5 lines 
@@ -200,7 +200,7 @@ void ta_process(shared_t *sh, int ta_id) {
             sem_post(&sh->question_mutex);
 
             if (q_to_mark == -1) {
-                nanosleep(100 * 1000);
+                sleep(100 * 1000);
                 continue;
             }
 

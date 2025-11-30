@@ -7,3 +7,5 @@
 2. Editing number of TAs can be done with changing NUM_TAS variable
 3. To run part a: ./build_a.sh
 4. To run part b: ./build_b.sh
+5. To switch between test cases, copy contents of test list into exam_list.txt
+6. To switch between rubrics, copy contents of rubric into rubric.txt
